@@ -1,0 +1,78 @@
+
+body{
+    background-color: linen  !important;
+
+}
+h1{
+   
+    font-family:'Pacifico';
+   
+}
+.calendar{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.disabled{
+color: lightgrey;
+}
+.weekend{
+    background-color:red;
+}
+td:hover{
+    background-color: lightgrey;
+    
+    }
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+    }
+    .winter{
+        background:url(images/winter-0.jpg) no-repeat;
+        background-size: 100%;
+        opacity: 0.6;
+        transition: .55s opacity, .55s visibility;
+        
+    }
+    .winter:hover{
+        background: url(images/winter.gif) no-repeat;
+        background-size: 100%;
+        opacity: 1;
+    }
+   
+    .spring{
+        background:url(images/spring-0.jpg) no-repeat;
+        background-size: 100%;
+        opacity: 0.6;
+        transition: .55s opacity, .55s visibility;
+    }
+    .spring:hover{
+        background: url(images/spring.gif) no-repeat;
+        background-size: 100%;
+        opacity: 1;
+    }
+    .summer{
+        background: url(images/summer-0.jpg) no-repeat;
+        background-size: 100%;
+        opacity: 0.6;
+        transition: .55s opacity, .55s visibility;
+    }
+    .summer:hover{
+        background: url(images/summer.gif) no-repeat;
+        background-size: 100%;
+        opacity: 1;
+    }
+    .autumn{
+        background: url(images/autumn-0.jpg) no-repeat;
+        background-size: 100%;
+        opacity: 0.6;
+        transition: .55s opacity, .55s visibility;
+    }
+    .autumn:hover{
+        background: url(images/autumn.gif)no-repeat;
+        background-size: 100%;
+        opacity: 1;
+    }
+
